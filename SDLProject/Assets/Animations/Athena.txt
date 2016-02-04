@@ -1,0 +1,11 @@
+#Animation:	name		x		y		w		h		numframes	fps
+
+SourceImage: Athena.png
+Animation:	Idle		0		0		147		197		31		6
+Animation:	Walk		0		198		174		204		8		14
+Animation:	Punch		0		402		189		192		7		21
+Animation:	Kick		0		594		189		199		14		28
+Animation:	Block		0		793		142		194		3		30
+Animation:	Special		0		987		320		322		25		30
+Animation:	Hurt		0		1309	154		198		3		12
+Animation:	Death		0		1507	234		190		9		36

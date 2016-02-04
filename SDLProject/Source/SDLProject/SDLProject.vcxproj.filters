@@ -1,0 +1,216 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="Rect.cpp">
+      <Filter>Internal\Math</Filter>
+    </ClCompile>
+    <ClCompile Include="Vector2.cpp">
+      <Filter>Internal\Math</Filter>
+    </ClCompile>
+    <ClCompile Include="Math.cpp">
+      <Filter>Internal\Math</Filter>
+    </ClCompile>
+    <ClCompile Include="Collider.cpp">
+      <Filter>Internal\Physics</Filter>
+    </ClCompile>
+    <ClCompile Include="Application.cpp">
+      <Filter>Internal\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="GraphicSystem.cpp">
+      <Filter>Internal\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="ImageLoader.cpp">
+      <Filter>Internal\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="ResourceManager.cpp">
+      <Filter>Internal\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Sprite.cpp">
+      <Filter>Internal\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="Texture.cpp">
+      <Filter>Internal\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="InputManager.cpp">
+      <Filter>Internal\Input</Filter>
+    </ClCompile>
+    <ClCompile Include="GameManager.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+    <ClCompile Include="Npc.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObject.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="BoxCollider.cpp">
+      <Filter>Internal\Physics</Filter>
+    </ClCompile>
+    <ClCompile Include="CircleCollider.cpp">
+      <Filter>Internal\Physics</Filter>
+    </ClCompile>
+    <ClCompile Include="CollisionSystem.cpp">
+      <Filter>Internal\Physics</Filter>
+    </ClCompile>
+    <ClCompile Include="AABBCollider.cpp">
+      <Filter>Internal\Physics</Filter>
+    </ClCompile>
+    <ClCompile Include="QuadTree.cpp">
+      <Filter>Internal\Container</Filter>
+    </ClCompile>
+    <ClCompile Include="HealthBar.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Circle.h">
+      <Filter>Internal\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Line.h">
+      <Filter>Internal\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Math.h">
+      <Filter>Internal\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Rect.h">
+      <Filter>Internal\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Vector2.h">
+      <Filter>Internal\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Heap.h">
+      <Filter>Internal\Container</Filter>
+    </ClInclude>
+    <ClInclude Include="Collider.h">
+      <Filter>Internal\Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="Application.h">
+      <Filter>Internal\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="DeleteHelpers.h">
+      <Filter>Internal\Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="GraphicSystem.h">
+      <Filter>Internal\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="ImageLoader.h">
+      <Filter>Internal\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="ResourceManager.h">
+      <Filter>Internal\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Texture.h">
+      <Filter>Internal\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="Sprite.h">
+      <Filter>Internal\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="InputTypes.h">
+      <Filter>Internal\Input</Filter>
+    </ClInclude>
+    <ClInclude Include="InputManager.h">
+      <Filter>Internal\Input</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="GameManager.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Npc.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObject.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="BoxCollider.h">
+      <Filter>Internal\Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="CircleCollider.h">
+      <Filter>Internal\Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="CollisionFunctors.h">
+      <Filter>Internal\Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="CollisionSystem.h">
+      <Filter>Internal\Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="AABBCollider.h">
+      <Filter>Internal\Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="QuadTree.h">
+      <Filter>Internal\Container</Filter>
+    </ClInclude>
+    <ClInclude Include="HealthBar.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Internal">
+      <UniqueIdentifier>{aab4b43a-d809-44d8-b778-81c9a496dabe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Internal\Math">
+      <UniqueIdentifier>{c46ae2c9-8897-4d9f-a963-9012c1587635}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Internal\Container">
+      <UniqueIdentifier>{bfda44c9-8d7c-4f9c-a2ee-85655e1be933}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Internal\Core">
+      <UniqueIdentifier>{b4a425ab-7689-457f-ace9-0438fa062ade}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Internal\Utilities">
+      <UniqueIdentifier>{d6907554-40c0-4c7a-ac65-0782c243d971}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Internal\Graphics">
+      <UniqueIdentifier>{d166cc62-0ef4-4c5a-a7dc-680289537d5f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Internal\Input">
+      <UniqueIdentifier>{2a78dc68-9ca5-4dcb-9ffb-73be092303a9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Internal\Physics">
+      <UniqueIdentifier>{f016b8da-ba89-4f4e-a3c7-1a4d7e8f73ea}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game">
+      <UniqueIdentifier>{82101ebc-b1ad-4650-9273-bb40af12d238}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Internal\Debug">
+      <UniqueIdentifier>{bf6908ef-331d-4638-89b1-4b171b65ba68}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Assets">
+      <UniqueIdentifier>{1b2ebf12-82aa-49f4-b4f2-817c3d7c01f5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Assets\Animations">
+      <UniqueIdentifier>{b8c43e33-7685-4d58-a47b-166ed61c5f2d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Assets\Scenes">
+      <UniqueIdentifier>{f833b209-e605-4814-8c82-7c63bbe39696}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Heap.inl">
+      <Filter>Internal\Container</Filter>
+    </None>
+    <None Include="..\..\Assets\Animations\Tifa.txt">
+      <Filter>Game\Assets\Animations</Filter>
+    </None>
+    <None Include="..\..\Assets\Animations\Crab.txt">
+      <Filter>Game\Assets\Animations</Filter>
+    </None>
+    <None Include="..\..\Assets\Scenes\Level1.txt">
+      <Filter>Game\Assets\Scenes</Filter>
+    </None>
+    <None Include="..\..\Assets\Animations\Athena.txt">
+      <Filter>Game\Assets\Animations</Filter>
+    </None>
+    <None Include="..\..\Assets\Animations\Cloud.txt">
+      <Filter>Game\Assets\Animations</Filter>
+    </None>
+    <None Include="..\..\Assets\Animations\Kim.txt">
+      <Filter>Game\Assets\Animations</Filter>
+    </None>
+  </ItemGroup>
+</Project>

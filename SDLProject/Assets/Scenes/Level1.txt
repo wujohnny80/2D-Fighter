@@ -1,0 +1,34 @@
+# type			name		x		y		scale	flip	layer	npcDifficulty	animationFile
+
+bg				hpbf1		10		50		1.0		0		1		none			hpframe.png
+bg				hpbf2		670		50		1.0		1		1		none			hpframe.png
+hp1				hpb1		35		63		1.0		0		1		none			healthbar.png
+hp2				hpb2		695		63		1.0		1		1		none			healthbar.png
+####################################################################################################
+#	Background
+#	=> remove # to select background
+#	=> ONLY select ONE
+####################################################################################################
+bg				BG1			0		0		1.0		0		0		none			background1.png
+#bg				BG2			0		0		1.0		0		0		none			background2.png
+
+####################################################################################################
+#	Player
+#	=> remove # to select player
+#	=> player1 on left, player2 on right
+####################################################################################################
+#player1		Athena		200		700		1.0		0		2		none			Athena.txt
+#player2		Kim			200		700		1.0		0		2		none			Kim.txt
+#player			Tifa		200		700		1.2		0		2		none			Tifa.txt
+#player2		Cloud		200		700		1.2		0		2		none			Cloud.txt
+
+####################################################################################################
+#	NPC
+#	=> remove # to add npc
+#	=> difficulty "hard" for hard, otherwise it is easy
+#	=> npc1 on left, npc2 on right
+####################################################################################################
+npc1			Athena		1080	700		1.0		0		2		hard			Athena.txt
+npc2			Kim			1080	700		1.0		0		2		hard			Kim.txt
+#npc2			Tifa		1080	700		1.2		0		2		hard			Tifa.txt
+#npc			Cloud		1080	700		1.2		0		2		hard			Cloud.txt

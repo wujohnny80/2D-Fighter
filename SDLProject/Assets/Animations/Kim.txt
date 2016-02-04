@@ -1,0 +1,11 @@
+#Animation:	name		x		y			w		h		numframes	fps
+
+SourceImage: Kim.png
+Animation:	Idle		0		0			137		242		10		14
+Animation:	Walk		0		243			142		238		8		14
+Animation:	Punch		0		481			180		229		6		24
+Animation:	Kick		0		710			241		230		10		24
+Animation:	Block		0		940			175		218		6		30
+Animation:	Special		0		1158		269		237		9		16
+Animation:	Hurt		0		1395		194		274		4		16
+Animation:	Death		0		1669		251		214		9		12

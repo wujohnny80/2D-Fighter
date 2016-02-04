@@ -1,0 +1,15 @@
+#Animation:	name	topleft.x	topleft.y	w		h		numframes	fps
+
+SourceImage: Tifa.png
+Animation:	Idle	0			0			122		165		11		14
+Animation:	Walk	0			167			122		166		10		14
+Animation:	Run		0			334			154		148		6		14
+Animation:	Jump	0			483			108		262		10		24
+Animation:	Punch	0			746			152		162		3		14
+Animation:	Special	0			909			164		160		5		16
+Animation:	Kick	0			1070		184		177		7		14
+Animation:	RK		0			1248		220		160		10		22
+Animation:	Hurt	0			1409		124		154		5		20
+Animation:	FF		0			1564		156		232		11		20
+Animation:	Death	0			1797		202		160		11		6
+Animation:	Block	0			1957		141		157		2		16

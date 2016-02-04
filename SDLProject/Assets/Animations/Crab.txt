@@ -1,0 +1,9 @@
+#Animation:	name	topleft.x	topleft.y	w		h		numframes	fps
+
+SourceImage: Crab.png
+Animation:	Idle	0		0		108		82		12		14
+Animation:	Walk	0		83		108		82		12		14
+Animation:	LP		0		166		134		84		6		14
+Animation:	RP		0		251		136		119		19		24
+Animation:	Hurt	0		371		100		91		5		24
+Animation:	Death	0		463		120		94		32		24

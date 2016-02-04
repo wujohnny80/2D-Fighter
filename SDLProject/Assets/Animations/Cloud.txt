@@ -1,0 +1,11 @@
+#Animation:	name		x		y			w		h		numframes	fps
+
+SourceImage: Cloud.png
+Animation:	Idle		0		0			157		173		6		14
+Animation:	Walk		0		174			179		197		10		16
+Animation:	Punch		0		371			401		209		6		14
+Animation:	Kick		0		580			319		215		6		14
+Animation:	Block		0		795			197		173		2		14
+Animation:	Special		0		968			342		360		7		12
+Animation:	Hurt		0		1328		186		200		3		12
+Animation:	Death		0		1528		320		226		6		22
